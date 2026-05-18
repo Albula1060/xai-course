@@ -1,3 +1,4 @@
+xai_env/
 cas_env_main/
 *.pyc
 .ipynb_checkpoints/
