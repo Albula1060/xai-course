@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(./xai_env/Scripts/python.exe -c \"import numpy as np; imgs = np.load\\('data/challenge_images.npy'\\); lbls = np.load\\('data/challenge_labels.npy'\\); print\\('Images shape:', imgs.shape\\); print\\('Images dtype:', imgs.dtype\\); print\\('Min/Max:', imgs.min\\(\\), imgs.max\\(\\)\\); print\\('Labels shape:', lbls.shape\\); print\\('Labels:', lbls\\); print\\('Unique labels:', np.unique\\(lbls\\)\\)\")",
+      "Bash(../xai_env/Scripts/python.exe -c ' *)",
+      "Bash(notebooks/../xai_env/Scripts/python.exe -c ' *)"
+    ]
+  }
+}
